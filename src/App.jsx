@@ -6,6 +6,7 @@ import './App.css'
 import { useRoutes } from "react-router-dom";
 import { Routes,Route } from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom'
+import Team from '../components/Team'
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <Route path="/Speakers" element={<SpeakerMain/>}/>
         <Route path="/Registration" element={<RegistrationMain/>}/>
         <Route path="/Sponsors" element={<Sponsors/>}/>
+        <Route path="/Team" element={<Team/>}/>
+
       </Routes>
     </BrowserRouter>
     )

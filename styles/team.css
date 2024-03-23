@@ -1,0 +1,57 @@
+.containr{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    justify-items: center;
+
+}
+
+.team-sec{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-items: center;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 40px;
+    align-self: start;
+}
+
+.team-img img{
+    /* background: linear-gradient(to bottom, red, black); */
+    border-radius: 50%;
+    object-fit: cover;
+    height: 220px;
+    width: 220px;
+    transition: border 0.1s ease;
+}
+
+.team-img img:hover {
+    border: 2px solid red;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.team-img img:hover + .team-mem {
+    opacity: 1; /* Make name and role visible on hover */
+}
+  
+.team-mem {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Add transition for smooth animation */
+}
+.team-img {
+    position: relative; /* Ensure the parent container is positioned */
+}
