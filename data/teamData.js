@@ -69,29 +69,29 @@ const teamData = [
     {
         team: "Web Team",
         members: [
-            { name: "Akhil Gireesh", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "Anantha Krishnan", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
+            { name: "Akhil Gireesh", img: "../data/assets/Team/Akhil.jpg", role: "Head" },
+            { name: "Anantha Krishnan", img: "../data/assets/Team/Anandu.jpg", role: "Member" }
         ]
     },
     {
         team: "Content Team",
         members: [
-            { name: "Anu Viswanathan", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
-            { name: "Ann Jose", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "Ansa Anti", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "Asiya Jannah O V", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "Nandana U", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "V M Ghanashyam", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
+            { name: "Anu Viswanathan", img: "../data/assets/Team/AnuVish.jpg", role: "Head" },
+            { name: "Ann Jose", img: "../data/assets/Team/ann jose.jpg", role: "Member" },
+            { name: "Ansa Anto", img: "../data/assets/Team/Ansa Antoo.jpg", role: "Member" },
+            { name: "Asiya Jannah O V", img: "../data/assets/Team/Asiya.jpg", role: "Member" },
+            { name: "Nandana U", img: "../data/assets/Team/Nandana.jpg", role: "Member" },
+            { name: "V M Ghanashyam", img: "../data/assets/Team/Ghanashyam.jpeg", role: "Member" }
         ]
     },
     {
         team: "Marketing Team",
         members: [
-            { name: "Sreeyoog Valsan", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
-            { name: "Aiswarya Madhu", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
-            { name: "Ziya KV", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "Jude Abi Pynadath", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
-            { name: "Aadi Sankar ui", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
+            { name: "Sreeyoog Valsan", img: "../data/assets/Team/Sreeyog.jpg", role: "Head" },
+            { name: "Aiswarya Madhu", img: "../data/assets/Team/AisMadhu.jpg", role: "Head" },
+            { name: "Ziya KV", img: "../data/assets/Team/Ziya.jpg", role: "Member" },
+            { name: "Jude Abi Pynadath", img: "../data/assets/Team/Jude.jpg", role: "Member" },
+            { name: "Aadi Sankar ui", img: "../data/assets/Team/Adishankar.jpg", role: "Member" }
         ]
     }
    
