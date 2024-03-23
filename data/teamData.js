@@ -1,97 +1,97 @@
-import img from '../data/assets/Library.jpg'
+import img from '../data/assets/Team/Eby.jpg'
 const teamData = [
     {
         team: "Core",
         members: [
-            { name: "Akshay K", img: '../data/assets/Library.jpg', role: "Organiser" },
-            { name: "Aman Jose", img: "../data/assets/Library.jpg", role: "Organiser" },
-            { name: "Akash Suresh", img: "../data/assets/Library.jpg", role: "Organiser" },
-            { name: "Eby Kurian", img: '../data/assets/Library.jpg', role: "Organiser" }
+            { name: "Akshay K", img: '../data/assets/Team/Akash.jpg', role: "Organiser" },
+            { name: "Aman Jose", img: "../data/assets/Team/Eby.jpg", role: "Organiser" },
+            { name: "Akash Suresh", img: "../data/assets/Team/AkashS.jpg", role: "Organiser" },
+            { name: "Eby Kurian", img:"../data/assets/Team/Eby.jpg", role: "Organiser" }
         ]
     },
     {
         team: "Sponsorship Team",
         members: [
-            { name: "Aaron Chrisjo Anil", img: "/", role: "Head" },
-            { name: "Shifa Sageer", img: "/", role: "Head" },
-            { name: "Hisham Mohammed", img: "/", role: "Member" },
-            { name: "Archana K", img: "/", role: "Member" },
-            { name: "Mariya Elsa Santhosh", img: "/", role: "Member" },
-            { name: "Kavya Sooraj", img: "/", role: "Member" }
+            { name: "Aaron Chrisjo Anil", img: "../data/assets/Team/Aaron.jpg", role: "Head" },
+            { name: "Shifa Sageer", img: "../data/assets/Team/Shifa.jpeg", role: "Head" },
+            { name: "Hisham Mohammed", img: "../data/assets/Team/Hisham.jpg", role: "Member" },
+            { name: "Archana K", img: "../data/assets/Team/AkashS.jpg", role: "Member" },
+            { name: "Mariya Elsa Santhosh", img:"../data/assets/Team/Maria.jpg", role: "Member" },
+            { name: "Kavya Sooraj", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
         ]
     },
     {
         team: "Speaker Curation Team",
         members: [
-            { name: "Edric Bijoy Paul", img: "/", role: "Head" },
-            { name: "Nashita Noushad", img: "/", role: "Head" },
-            { name: "Haniya Rahman", img: "/", role: "Member" },
-            { name: "Ann B Mariyam", img: "/", role: "Member" },
-            { name: "Devinanda S K", img: "/", role: "Member" },
-            { name: "Maria Nathasha", img: "/", role: "Member" },
-            { name: "Vyshnav Rajesh Nair", img: "/", role: "Member" }
+            { name: "Edric Bijoy Paul", img: "../data/assets/Team/head-2.jpg", role: "Head" },
+            { name: "Nashita Noushad", img: "../data/assets/Team/head.jpg", role: "Head" },
+            { name: "Haniya Rahman", img: "../data/assets/Team/Haniya.jpg", role: "Member" },
+            { name: "Ann B Mariyam", img: "../data/assets/Team/AnnBMariyam .jpg", role: "Member" },
+            { name: "Devinanda S K", img: "../data/assets/Team/Devinanda.jpg", role: "Member" },
+            { name: "Maria Nathasha", img: "../data/assets/Team/Maria Nathasha.jpg", role: "Member" },
+            { name: "Vyshnav Rajesh Nair", img: "../data/assets/Team/Vyshnav.jpg", role: "Member" }
         ]
     },
     {
         team: "Design Team",
         members: [
-            { name: "Anusree Prakash", img: "/", role: "Head" },
-            { name: "Alvin varghese", img: "/", role: "Member" },
-            { name: "Abhijay Prakash", img: "/", role: "Member" },
-            { name: "Sanjay Sathish", img: "/", role: "Member" },
-            { name: "Aravind Ravi", img: "/", role: "Member" }
+            { name: "Anusree Prakash", img: "../data/assets/Team/Anusree.JPG", role: "Head" },
+            { name: "Alvin varghese", img: "../data/assets/Team/Alvin.png", role: "Member" },
+            { name: "Abhijay Prakash", img: "../data/assets/Team/Abhijay.png", role: "Member" },
+            { name: "Sanjay Sathish", img: "../data/assets/Team/57.jpg", role: "Member" },
+            // { name: "Aravind Ravi", img: "../data/assets/Team/.jpg", role: "Member" }
         ]
     },
     {
         team: "Program Committee",
         members: [
-            { name: "Arshia Ashok", img: "/", role: "Head" },
-            { name: "Ann Moni George", img: "/", role: "Member" },
-            { name: "Fathima Nihma", img: "/", role: "Member" },
-            { name: "Jyotika K", img: "/", role: "Member" },
-            { name: "Sona M S", img: "/", role: "Member" },
-            { name: "Gautham S", img: "/", role: "Member" },
-            { name: "Abhishek M K", img: "/", role: "Member" },
-            { name: "Yadu Krishna", img: "/", role: "Member" }
+            { name: "Arshia Ashok", img: "../data/assets/Team/Arshia Ashok.jpg", role: "Head" },
+            { name: "Ann Moni George", img: "../data/assets/Team/K.jpg", role: "Member" },
+            { name: "Fathima Nihma", img: "../data/assets/Team/Fathima.jpg", role: "Member" },
+            { name: "Jyotika K", img: "../data/assets/Team/Jyotika.jpg", role: "Member" },
+            // { name: "Sona M S", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Gautham S", img: "../data/assets/Team/Gautham.jpg", role: "Member" },
+            { name: "Abhishek M K", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Yadu Krishna", img: "../data/assets/Team/Yadhu.heic", role: "Member" }
         ]
     },
     {
         team: "Media Team",
         members: [
-            { name: "Abhay Das C", img: "/", role: "Head" },
-            { name: "Ajay PP", img: "/", role: "Head" },
-            { name: "Adarsh Vinod", img: "/", role: "Member" },
-            { name: "Hamad Mishal", img: "/", role: "Member" },
-            { name: "Jeevan Philip Varghese", img: "/", role: "Member" },
-            { name: "Alan Shaji", img: "/", role: "Member" }
+            { name: "Abhay Das C", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
+            { name: "Ajay PP", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
+            { name: "Adarsh Vinod", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Hamad Mishal", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Jeevan Philip Varghese", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Alan Shaji", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
         ]
     },
     {
         team: "Web Team",
         members: [
-            { name: "Akhil Gireesh", img: "/", role: "Member" },
-            { name: "Anantha Krishnan", img: "/", role: "Member" }
+            { name: "Akhil Gireesh", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Anantha Krishnan", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
         ]
     },
     {
         team: "Content Team",
         members: [
-            { name: "Anu Viswanathan", img: "/", role: "Head" },
-            { name: "Ann Jose", img: "/", role: "Member" },
-            { name: "Ansa Anti", img: "/", role: "Member" },
-            { name: "Asiya Jannah O V", img: "/", role: "Member" },
-            { name: "Nandana U", img: "/", role: "Member" },
-            { name: "V M Ghanashyam", img: "/", role: "Member" }
+            { name: "Anu Viswanathan", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
+            { name: "Ann Jose", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Ansa Anti", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Asiya Jannah O V", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Nandana U", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "V M Ghanashyam", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
         ]
     },
     {
         team: "Marketing Team",
         members: [
-            { name: "Sreeyoog Valsan", img: "/", role: "Head" },
-            { name: "Aiswarya Madhu", img: "/", role: "Head" },
-            { name: "Ziya KV", img: "/", role: "Member" },
-            { name: "Jude Abi Pynadath", img: "/", role: "Member" },
-            { name: "Aadi Sankar ui", img: "/", role: "Member" }
+            { name: "Sreeyoog Valsan", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
+            { name: "Aiswarya Madhu", img: "../data/assets/Team/Kavya.jpg", role: "Head" },
+            { name: "Ziya KV", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Jude Abi Pynadath", img: "../data/assets/Team/Kavya.jpg", role: "Member" },
+            { name: "Aadi Sankar ui", img: "../data/assets/Team/Kavya.jpg", role: "Member" }
         ]
     }
    
