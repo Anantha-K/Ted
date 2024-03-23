@@ -67,6 +67,13 @@ const teamData = [
         ]
     },
     {
+        team: "Web Team",
+        members: [
+            { name: "Akhil Gireesh", img: "/", role: "Member" },
+            { name: "Anantha Krishnan", img: "/", role: "Member" }
+        ]
+    },
+    {
         team: "Content Team",
         members: [
             { name: "Anu Viswanathan", img: "/", role: "Head" },
@@ -80,20 +87,14 @@ const teamData = [
     {
         team: "Marketing Team",
         members: [
-            { name: "Aiswarya Madhu", img: "/", role: "Head" },
             { name: "Sreeyoog Valsan", img: "/", role: "Head" },
-            { name: "Aadi Sankar ui", img: "/", role: "Member" },
+            { name: "Aiswarya Madhu", img: "/", role: "Head" },
             { name: "Ziya KV", img: "/", role: "Member" },
-            { name: "Jude Abi Pynadath", img: "/", role: "Member" }
-        ]
-    },
-    {
-        team: "Web Team",
-        members: [
-            { name: "Akhil Gireesh", img: "/", role: "Member" },
-            { name: "Anantha Krishnan", img: "/", role: "Member" }
+            { name: "Jude Abi Pynadath", img: "/", role: "Member" },
+            { name: "Aadi Sankar ui", img: "/", role: "Member" }
         ]
     }
+   
 ];
 
 export default teamData

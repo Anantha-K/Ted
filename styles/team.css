@@ -6,8 +6,19 @@
     place-items: center;
     justify-items: center;
 }
+#hd{
+    font-size:75px;
+}
+
+#heading{
+    font-size: 50px;
+    margin: 30px 0px;
+
+
+}
 
 .team-sec {
+    margin: 30px 0px;
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -33,29 +44,39 @@
     border: 2px solid red;
     padding: 3px;
     cursor: pointer;
-}
-
-.team-img img:hover + .team-mem {
-    opacity: 1; /* Make name and role visible on hover */
-}
-
-.team-mem {
-    display: flex;
-    flex-direction: column;
+  }
+  
+  .team-mem {
+    font-size: 20px;
     color: white;
     position: absolute;
-    top: 50%;
+    bottom: -50px; /* Position below the image */
     left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Add transition for smooth animation */
-}
+    transform: translateX(-50%); /* Center horizontally */
+    opacity: 0;
+    transition: opacity 0.3s ease, bottom 0.3s ease; /* Transition for smooth animation */
+    text-align: center;
+    width: 80%; /* Add width to control the area */
+  }
+  
+  .team-mem h1 { /* Use h3 for better semantics */
+    margin: 40px 0;
+  }
+  
+  .team-mem p {
+    margin: 0 0; /* Margin top and bottom */
+  }
 
+  .team-img:hover .team-mem {
+    bottom: 5px; /* Position inside the image at the bottom */
+    opacity: 1;
+  }
+
+  
 .team-img {
-    position: relative; /* Ensure the parent container is positioned */
+    position: relative; 
 }
 
-/* Media query for responsive layout */
 @media screen and (max-width: 1200px) {
     .team-img img {
         border-radius: 50%;
@@ -67,7 +88,7 @@
     .team-members {
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
-        row-gap: 20px; /* Adjust the number of columns for smaller screens */
+        row-gap: 20px;
     }
 }
 
@@ -75,7 +96,7 @@
     .team-members {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-        row-gap: 20px; /* Adjust the number of columns for even smaller screens */
+        row-gap: 20px;
     }
 }
 
@@ -83,6 +104,6 @@
     .team-members {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        row-gap: 20px; /* Adjust the number of columns for mobile screens */
+        row-gap: 20px; 
     }
 }
