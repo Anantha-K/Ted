@@ -1,14 +1,13 @@
-.containr{
+.containr {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
     place-items: center;
     justify-items: center;
-
 }
 
-.team-sec{
+.team-sec {
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -17,13 +16,12 @@
 
 .team-members {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(5, 1fr);
     gap: 40px;
     align-self: start;
 }
 
-.team-img img{
-    /* background: linear-gradient(to bottom, red, black); */
+.team-img img {
     border-radius: 50%;
     object-fit: cover;
     height: 220px;
@@ -40,7 +38,7 @@
 .team-img img:hover + .team-mem {
     opacity: 1; /* Make name and role visible on hover */
 }
-  
+
 .team-mem {
     display: flex;
     flex-direction: column;
@@ -52,6 +50,39 @@
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease; /* Add transition for smooth animation */
 }
+
 .team-img {
     position: relative; /* Ensure the parent container is positioned */
+}
+
+/* Media query for responsive layout */
+@media screen and (max-width: 1200px) {
+    .team-img img {
+        border-radius: 50%;
+        object-fit: cover;
+        height: 180px;
+        width: 180px;
+        transition: border 0.1s ease;
+    }
+    .team-members {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        row-gap: 20px; /* Adjust the number of columns for smaller screens */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .team-members {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        row-gap: 20px; /* Adjust the number of columns for even smaller screens */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team-members {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        row-gap: 20px; /* Adjust the number of columns for mobile screens */
+    }
 }
