@@ -29,6 +29,7 @@ function App() {
   return(
     // <LandingPg/>
     <BrowserRouter>
+          <Navbar /> {/* Include the Navbar component here */}
       <Routes>
         <Route path="/" element={<LandingPg/>}/>
         <Route path="/Speakers" element={<SpeakerMain/>}/>

@@ -98,6 +98,8 @@ body{
   height: 100vh;
 }
 
+
+
 #disapperaingContainer{
   display: flex;
   justify-content: center;
@@ -109,7 +111,7 @@ body{
 
 #disapperaingContainer div{
   width: 16.7vw;
-  height: 100vh;
+  height: 70vh;
   background-color: red;
   /* border: 1px solid white; */
 }

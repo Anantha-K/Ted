@@ -27,7 +27,7 @@ const Sponsors = () => {
 
     return(
         <>
-            <h1>Sponsors</h1>
+            <h1 id="sp">Sponsors</h1>
             <div className="cardWrapper">
                 {SponsorData.map(({id,name,img}) => {
                     return(

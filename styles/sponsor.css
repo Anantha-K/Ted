@@ -1,4 +1,6 @@
 .cardWrapper{
+    position: relative;
+    top: 140px;
     width: 100vw;
     height:60vh;
     /* border: 1px solid white; */
@@ -9,6 +11,11 @@
     /* overflow: hidden; */
 }
 
+#sp{
+    position: relative;
+    bottom: -150px;
+    left: 48px;
+}
 .card{
     background-color: #1e1e1e;
     position: relative;
