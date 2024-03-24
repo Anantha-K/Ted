@@ -1,0 +1,42 @@
+.navba{
+    width: 100vw;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+ 
+  }
+
+  .nav {
+    margin-top: 15px;
+    width: 80vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Use align-items instead of place-items */
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .nav-items {
+    display: flex;
+    gap: 20px; /* Adjust the gap between list items */
+  }
+  
+  .nav-items li {
+    list-style-type: none;
+  }
+  .nav-items li:hover {
+    cursor: pointer;
+  }
+  
+  .nav-items li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Change link color */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  

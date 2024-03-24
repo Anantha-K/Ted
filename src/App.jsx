@@ -7,6 +7,9 @@ import { useRoutes } from "react-router-dom";
 import { Routes,Route } from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom'
 import Team from '../components/Team'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
 
 
 function App() {
@@ -31,7 +34,7 @@ function App() {
         <Route path="/Speakers" element={<SpeakerMain/>}/>
         <Route path="/Registration" element={<RegistrationMain/>}/>
         <Route path="/Sponsors" element={<Sponsors/>}/>
-        <Route path="/Team" element={<Team/>}/>
+        <Route path="/Team" element={<Footer/>}/>
 
       </Routes>
     </BrowserRouter>
