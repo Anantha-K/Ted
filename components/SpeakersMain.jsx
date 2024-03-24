@@ -15,7 +15,7 @@ function App() {
   return (
  
 
-    <div className="containerr">
+    <div className="containerr speaker-page">
       <h1 className="heading">Speakers</h1>
       <Swiper
         effect={'coverflow'}

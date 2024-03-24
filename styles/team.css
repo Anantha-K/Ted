@@ -62,11 +62,14 @@
   }
   
   .team-mem h1 { 
+    font-weight: 800;
     margin: 30px 0;
+
   }
   
   .team-mem p {
     margin: 0 0;
+    font-size: medium;
   }
 
   .team-img:hover .team-mem {
@@ -103,9 +106,17 @@
 }
 
 @media screen and (max-width: 600px) {
+    .team-img img {
+        border-radius: 50%;
+        object-fit: cover;
+        height: 140px;
+        width: 140px;
+        transition: border 0.1s ease;
+    }
     .team-members {
+        padding: 0 20px;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        row-gap: 20px; 
+        gap: 25px;
+        row-gap: 25px; 
     }
 }
