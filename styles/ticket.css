@@ -1,0 +1,42 @@
+.ticket {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 100vw; 
+    overflow: hidden;
+    color: white;
+    padding: 5px;
+  }
+  
+  .ticket h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .ticket-image {
+    width: 80vw;
+    max-height: 100%;
+    border-radius: 30px;
+  }
+  
+  .ticket-image:hover {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .ticket {
+      height: 80vh; 
+    
+    }
+  
+    .ticket-image {
+        margin:  50px 0;
+      width: auto;
+      height: 70vw; 
+      max-height: 100vh;
+      transform-origin: center center; 
+      transform: rotate(90deg);
+    }
+  }
+  

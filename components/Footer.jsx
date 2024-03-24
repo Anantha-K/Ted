@@ -15,9 +15,9 @@ const Footer = () => {
           </p>
 
           <div className="social-icons">
-            <FaInstagram className="icon" />
-            <FaLinkedin className="icon" />
-            <FaYoutube className="icon" />
+           <a href="https://www.instagram.com/tedxfisat24?igsh=MW5pcGdqYmwydjl2bQ=="> <FaInstagram className="icon" /></a>
+           <a href="https://www.linkedin.com/company/tedxfisat/mycompany/"> <FaLinkedin className="icon" /></a>
+           <a href="/">  <FaYoutube className="icon" /></a>
           </div>
         </div>
 

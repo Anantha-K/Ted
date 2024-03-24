@@ -9,6 +9,10 @@ import {BrowserRouter} from 'react-router-dom'
 import Team from '../components/Team'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Contact from '../components/Contact'
+import Ticket from '../components/Ticket'
+
+
 
 
 
@@ -35,7 +39,7 @@ function App() {
         <Route path="/Speakers" element={<SpeakerMain/>}/>
         <Route path="/Registration" element={<RegistrationMain/>}/>
         <Route path="/Sponsors" element={<Sponsors/>}/>
-        <Route path="/Team" element={<Footer/>}/>
+        <Route path="/Team" element={<Team/>}/>
 
       </Routes>
     </BrowserRouter>
