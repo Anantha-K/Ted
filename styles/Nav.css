@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  position: fixed;
+  z-index: 90;
 
   
   
@@ -35,5 +37,17 @@
   font-weight: 800;
   color: red;
 
+  
 
+}
+.Nav a:hover{
+  cursor: pointer;
+  transition: all 0.8s ease;
+  color: red;
+
+
+
+}
+.Nav li.active a {
+  color: red; 
 }

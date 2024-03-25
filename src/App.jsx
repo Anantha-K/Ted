@@ -33,12 +33,13 @@ function App() {
   return(
     // <LandingPg/>
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<LandingPg/>}/>
         <Route path="/Speakers" element={<SpeakerMain/>}/>
         <Route path="/Registration" element={<RegistrationMain/>}/>
         <Route path="/Sponsors" element={<Sponsors/>}/>
-        <Route path="/Team" element={<Navbar/>}/>
+        <Route path="/Team" element={<Team/>}/>
 
       </Routes>
     </BrowserRouter>
