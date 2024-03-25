@@ -28,9 +28,9 @@ const Navbar = () => {
               <Link to='/Team'>Team</Link>
             </li>
           </ul>
-          <div>
-            Register
-          </div>
+          <Link to='/Register' class="buttonn" onClick={() => handleItemClick('')} >
+  Register
+</Link>
         </nav>
       </div>
     </>

@@ -11,6 +11,8 @@ import Footer from '../components/Footer'
 import Contact from '../components/Contact'
 import Ticket from '../components/Ticket'
 import Navbar from '../components/Navbar'
+import Register from '../components/Register'
+
 
 
 
@@ -39,7 +41,9 @@ function App() {
         <Route path="/Speakers" element={<SpeakerMain/>}/>
         <Route path="/Registration" element={<RegistrationMain/>}/>
         <Route path="/Sponsors" element={<Sponsors/>}/>
-        <Route path="/Team" element={<Team/>}/>
+        <Route path="/Team" element={<Team/>}/>   
+             <Route path="/Register" element={<Register/>}/>
+
 
       </Routes>
     </BrowserRouter>
