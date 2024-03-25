@@ -51,6 +51,9 @@
 .Nav li.active a {
   color: red; 
 }
+.no-scroll {
+  overflow: hidden; 
+}
 
 
 .buttonn {
@@ -95,4 +98,67 @@
   scale: 1;
 }
 
+.mobMenu{
+  display: none;
 
+}
+@media (max-width: 768px) {
+  .Nav , .buttonn {
+    display: none;
+    
+    
+  }
+  .mobMenu{
+    z-index: 90;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    place-items: center;
+  }
+
+  .Navbarbg{
+    width: 100vw;
+  }
+  .NavB{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+  }
+  .NavB h1{
+    font-weight: 800;
+    color: red;
+  
+    
+  
+  }
+}
+
+.MobNav{
+  z-index: 100;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.MobNav li{
+  z-index: 100;
+  
+  list-style: none;
+  
+}
+.MobNav a:hover{
+  cursor: pointer;
+  transition: all 0.8s ease;
+  color: black;
+
+
+
+}
+.MobNav li.active a {
+  color: black; 
+}
