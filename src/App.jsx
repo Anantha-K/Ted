@@ -7,10 +7,10 @@ import { useRoutes } from "react-router-dom";
 import { Routes,Route } from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom'
 import Team from '../components/Team'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
 import Ticket from '../components/Ticket'
+import Navbar from '../components/Navbar'
 
 
 
@@ -33,13 +33,12 @@ function App() {
   return(
     // <LandingPg/>
     <BrowserRouter>
-          <Navbar /> {/* Include the Navbar component here */}
       <Routes>
         <Route path="/" element={<LandingPg/>}/>
         <Route path="/Speakers" element={<SpeakerMain/>}/>
         <Route path="/Registration" element={<RegistrationMain/>}/>
         <Route path="/Sponsors" element={<Sponsors/>}/>
-        <Route path="/Team" element={<Team/>}/>
+        <Route path="/Team" element={<Navbar/>}/>
 
       </Routes>
     </BrowserRouter>
